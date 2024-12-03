@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#board {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fre 1fr 1fr;
+    height: 600px;
+    width: 600px;
+}
+
+.cell {
+    outline: 1px solid black;
+}
+
+.text {
+    color: white;
+}
